@@ -30,14 +30,30 @@
 // text.style.backgroundColor = "red";
 //--------------------------------------------------------------------------------------------
 
-const titles = document.querySelectorAll("h3");
-console.log("🟡: titles", titles); // NodeList of all <h3> elements
+// const titles = document.querySelectorAll("h3");
+// console.log("🟡: titles", titles); // NodeList of all <h3> elements
 
-const textBrownElements = document.querySelectorAll(".text-brown");
-console.log("🟡: textBrownElements", textBrownElements); // NodeList of all elements with class "text-brown"
+// const textBrownElements = document.querySelectorAll(".text-brown");
+// console.log("🟡: textBrownElements", textBrownElements); // NodeList of all elements with class "text-brown"
 
-const textPara = document.querySelectorAll("#text1");
-console.log("🟡: textPara", textPara); // NodeList of all elements with id "text1"
+// const textPara = document.querySelectorAll("#text1");
+// console.log("🟡: textPara", textPara); // NodeList of all elements with id "text1"
 
-const textPara2 = document.querySelectorAll("#text2");
-console.log("🟡: textPara2", textPara2); // NodeList of all elements with id "text2"
+// const textPara2 = document.querySelectorAll("#text2");
+// console.log("🟡: textPara2", textPara2); // NodeList of all elements with id "text2"
+//---------------------------------------------------------------------------------------------
+
+// const parent = document.getElementById("root");
+
+// const title = document.createElement("h1");
+// title.innerText = "Hello from DOM 1!";
+// title.style.textDecoration = "underline";
+// title.style.color = "blue";
+// parent.append(title);
+
+// const title2 = document.createElement("h1");
+// title2.innerText = "Hello from DOM 2!";
+// title2.style.textDecoration = "underline";
+// title2.style.color = "red";
+// parent.append(title2);
+//---------------------------------------------------------------------------------------------
